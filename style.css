@@ -1,0 +1,333 @@
+#desktop {
+    position: relative;
+    width: 1445px;
+    height: 4759px;
+    background: #F6F6F6
+}
+
+#content{
+    position: absolute;
+    width: 1445px;
+    height: 4603.76px;
+    left: 0px;
+    top: 32.05px;
+}
+
+#vector{
+    position: absolute;
+    width: 940.6px;
+    height: 0px;
+    left: 250.69px;
+    top: 87.94px;
+
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.text {
+    top: 0.69%;
+    bottom: 98.82%;
+}
+
+.text:hover{
+    color:#828282;
+}
+
+/*headers*/
+
+#habout{
+    position: absolute;
+    left: 44.68%;
+    right: 43.55%;
+    top: 18.66%;
+    bottom: 80.43%;
+}
+
+#hskills{
+    position: absolute;
+    left: 45.8%;
+    right: 45.59%;
+    top: 28.68%;
+    bottom: 70.77%;
+}
+
+#hportfolio{
+    position: absolute;
+    left: 45.62%;
+    right: 43.31%;
+    top: 41.96%;
+    bottom: 57.13%;
+}
+
+#hcontacts{
+    position: absolute;
+    left: 44.89%;
+    right: 44.04%;
+    top: 89.33%;
+    bottom: 9.76%;
+}
+
+
+/*headers*/
+
+span#me{
+    left: 46.49%;
+    right: 42.74%;
+    top: 3.85%;
+    bottom: 95.22%;
+    text-align: left;
+}
+
+span#name{
+    width: 250px;
+    height: 110px;
+    left: 251.04px;
+    top: 128.13px;
+    text-align: left;
+
+    font-weight: 400;
+    font-size: 47.3392px;
+    line-height: 59px;
+}
+
+/*about me content*/
+
+#blackrect{
+    position: absolute;
+    width: 937.6px;
+    height: 381px;
+    left: 256.71px;
+    top: 319.94px;
+    background: #090909;
+    border-radius: 20px;
+
+}
+
+#myphoto{
+    background: url(/assets/images/myphoto.jpg) no-repeat;
+    position: absolute;
+    width: 943.61px;
+    height: 387px;
+    left: 253.5px;
+    top: 316.94px;
+    background-size: 100%;
+    opacity: 70%;
+    background-position: 0px -400px;
+    border-radius: 20px;
+
+}
+
+#myphoto:hover{
+    opacity: 100%;
+    width: 963.61px;
+    height: 407px;
+    left: 243.5px;
+    top: 306.94px;
+
+}
+
+div#aboutme{
+    position: absolute;
+    width: 1445px;
+    height: 506px;
+    left: 0px;
+    top: 768px;
+}
+
+#textabout{
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 40%;
+    bottom: 60%;
+
+}
+
+/*skills content*/
+
+#textskills{
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    top: 30.68%;
+    bottom: 68.81%;
+}
+
+.icon{
+    position: absolute;
+    width: 92px;
+    height: 90px;
+    top: 1570.43px;
+    background-size: 100%;
+}
+
+#vsicon{
+    left: 20%;
+    background: url(/assets/images/vsicon.svg) no-repeat;
+}
+
+#giticon{
+    left: 38.15%;
+    background: url(/assets/images/Giticon.svg) no-repeat;
+}
+
+#reacticon{
+    left: 55%;
+    background: url(/assets/images/reacticon.svg) no-repeat;
+}
+
+#figmaicon{
+    left: 73%;
+    background: url(/assets/images/Figmalogo.svg) no-repeat;
+}
+
+.skillstitle{
+    position: absolute;
+    top: 36.59%;
+    bottom: 64.14%;
+
+    font-family: 'Fuzzy Bubbles';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #828282;
+}
+
+div.wstar{
+    position: absolute;
+    width: 26.07px;
+    height: 26px;
+    top: 1746.94px;
+
+    background: url(/assets/images/whitestar.svg) no-repeat;
+    background-size: 100%;
+}
+
+div.bstar{
+    position: absolute;
+    width: 26.07px;
+    height: 26px;
+    top: 1746.94px;
+
+    background: url(/assets/images/blackstar.svg) no-repeat;
+    background-size: 100%;
+}
+
+/*portfolio content*/
+
+.portfoliopics{
+    position: absolute;
+    width: 936.24px;
+    height: 522px;
+    left: 256.89px;
+    border-radius: 20px;
+}
+
+#wisecat{
+    background: url(/assets/images/wise_cat.jpg) no-repeat; 
+    background-size: 100%;
+    top: 2057px;
+}
+
+#wisecat:hover{
+    opacity: 70%;
+    width: 916.24px;
+    height: 502px;
+    left: 266.89px;
+    top: 2067px;
+}
+
+#catcv{
+    background: url(/assets/images/cat_cv.jpg) no-repeat;
+    top: 2713px; 
+    background-size: 100%;
+}
+#catcv:hover{
+    opacity: 70%;
+    width: 916.24px;
+    height: 502px;
+    left: 266.89px;
+    top: 2723px;
+}
+
+#startico{
+    background: url(/assets/images/startico.png) no-repeat;
+    top: 3401px; 
+    background-size: 120%;
+    background-position: -90px 0px;
+}
+
+#startico:hover{
+    opacity: 70%;
+    width: 916.24px;
+    height: 502px;
+    left: 266.89px;
+    top: 3411px;
+}
+
+.portfoliolinks{
+    position: absolute;
+    left: 40.79%;
+    right: 40.1%;
+    bottom: 44.02%;
+
+    font-family: 'Fuzzy Bubbles';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: center;
+    text-decoration-line: underline;
+}
+
+/*footer content*/
+
+#sendbutton{
+    background: url(/assets/images/sendbutton.svg) no-repeat;
+    background-size: 100%;
+
+    position: absolute;
+    width: 180.5px;
+    height: 46px;
+    left: 44.5%;
+    top: 92.5%;
+}
+
+#sendbutton:hover{
+    opacity: 80%;
+}
+
+.socialicons{
+    position: absolute;
+    width: 40.11px;
+    height: 40px;
+    top: 95%;
+}
+
+#linkedin{
+    background: url(/assets/images/linkedin_icon.svg) no-repeat;
+    background-size: 100%;
+    left: 552.29px;
+}
+
+#insta{
+    background: url(/assets/images/insta_icon.svg) no-repeat;
+    background-size: 100%;
+    left: 653.81px;
+}
+
+#behance{
+    background: url(/assets/images/behance_icon.svg) no-repeat;
+    background-size: 100%;
+    left: 753.08px;
+}
+
+#dribble{
+    background: url(/assets/images/surf_icon.svg) no-repeat;
+    background-size: 100%;
+    left: 855.37px;
+}
